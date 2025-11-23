@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",                        // Modern JS output
+    "module": "nodenext",                       // ESM modules for Node.js
+    "moduleResolution": "nodenext",             // Required for resolvePackageJsonExports
+    "resolvePackageJsonExports": true,          // Properly resolve exports field in package.json
+    "esModuleInterop": true,                    // Allow import from CommonJS modules
+    "allowSyntheticDefaultImports": true,       // Import default from non-ESM modules
+    "experimentalDecorators": true,             // Enable decorators
+    "emitDecoratorMetadata": true,              // Enable metadata for decorators
+    "declaration": true,                        // Generate .d.ts files
+    "outDir": "./dist",                         // Output directory
+    "rootDir": "./src",                          // Source root
+    "sourceMap": true,                           // Generate source maps
+    "strict": true,                              // Enable all strict checks
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
