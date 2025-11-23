@@ -5,12 +5,11 @@ This service supports fetching phrases, retrieving translations, searching with 
 
 ---
 
-## 📌 Requirements
+## Requirements
 
 - Node.js **v18+**
 - npm or yarn
-- **MongoDB** (local or cloud)
-  - Example: MongoDB Atlas or `mongodb://localhost:27017`
+- **postgresql** (local)
 
 Status values supported:
 
@@ -19,7 +18,7 @@ active | pending | spam | deleted
 
 ---
 
-## 🚀 Features
+## Features
 
 - Create and store phrases with translations
 - Fetch phrase by ID (without translations)
@@ -32,9 +31,9 @@ active | pending | spam | deleted
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone <your-backend-repo-url>
